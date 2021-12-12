@@ -1,0 +1,196 @@
+/*RESET
+******************************************/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+
+/*GENERAL
+******************************************/
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.row{
+	width: 100%;
+	float: left;
+}
+
+/*HEADER
+******************************************/
+
+.header-logo{
+	float: left;
+	padding: 10px 0;
+}
+
+.header-logo h1 a{
+	color: lightgray;
+}
+
+.header-logo h1 a span.html{
+	color: blue;
+}
+
+.header-logo h1 a span.css{
+	color: orange;
+}
+
+.header-menu{
+	float: right;
+	padding: 15px 0;
+}
+
+.header-menu ul li{
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.header-menu ul li a{
+	color: blue;
+}
+
+
+/*WELCOME
+******************************************/
+
+.welcome{
+	background-color: orange;
+}
+
+.welcome .container{
+	width: 600px;
+	padding: 20px 0;
+}
+
+.welcome h1{
+	color: white;
+}
+
+
+/*MAIN
+******************************************/
+
+.main-menu{
+	float: left;
+	margin-right: 40px;
+	padding: 20px 0;
+}
+
+.main-menu h2{
+	color: orange;
+	padding-bottom: 15px;
+}
+
+.main-menu ul li{
+	padding-bottom: 15px;
+}
+
+.main-menu ul li a{
+	color: blue;
+}
+
+
+.main-contents{
+	padding: 20px 0;
+}
+
+.main-contents h2{
+	padding-bottom: 5px;
+}
+
+.main-contents h2 a{
+	color: orange;
+}
+
+.main-contents h2 a:hover{
+	text-decoration: underline;
+}
+
+.main-contents p{
+	padding-bottom: 10px;
+
+}
+
+.main-contents p:hover{
+	text-decoration: underline;
+}
+
+.main-contents p a{
+	color: gray;
+}
+
+
+
+/*ARTICLE
+******************************************/
+.article{
+	background-color: blue;
+}
+
+.article .title{
+	color: orange;
+	border-bottom: 2px solid orange;
+	width: 100%;
+	padding-bottom: 5px;
+	padding-top: 15px;
+}
+
+.article-column{
+	width: 30.66%;
+	float: left;
+	margin: 20px 0;
+}
+
+.article-column:nth-of-type(1){
+	margin-right: 4%;
+}
+
+.article-column:nth-of-type(2){
+	margin-right: 4%;
+}
+
+.article-column h2 a{
+	color: white;
+
+}
+
+.article-column h2 a:hover{
+	text-decoration: underline;
+}
+
+.article-column p a{
+	color: white;
+}
+
+.article-column p{
+	padding: 10px 0;
+}
+
+.article-column p a:hover{
+	text-decoration: underline;
+}
+
+
+/*FOOTER
+******************************************/
+.foot .container footer{
+	text-align: center;
+	padding: 20px 0;
+	color: gray;
+}
